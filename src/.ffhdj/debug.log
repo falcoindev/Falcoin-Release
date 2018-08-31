@@ -1,0 +1,364 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+falcoin version v1.6.0.0 (2018-04-07 11:02:14 +0530)
+Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+Startup time: 08/31/18 01:55:32
+Default data directory /root/.falcoin
+Used data directory /root/.falcoin
+dbenv.open LogDir=/root/.falcoin/database ErrorFile=/root/.falcoin/db.log
+Loading block index...
+CBlock(hash=4c2ef0fee6194af60d0feb4d485d57c28a7ba6a5bcbdd90ab6e226403220db96, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=853b24855afca339d082ff5ace379654d572d651fead9a5b14e3eaa586ab594f, nTime=1534855957, nBits=1e0fffff, nNonce=485491139, vtx=1, vchBlockSig=)
+  Coinbase(hash=853b24855a, nTime=1473351588, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d020f2721326e64204a616e2050656e6e7962617365206275696c64732066616c636f696e2e)
+    CTxOut(empty)
+  vMerkleTree: 853b24855a 
+block.GetHash() == 4c2ef0fee6194af60d0feb4d485d57c28a7ba6a5bcbdd90ab6e226403220db96
+block.hashMerkleRoot == 853b24855afca339d082ff5ace379654d572d651fead9a5b14e3eaa586ab594f
+block.nTime = 1534855957 
+block.nNonce = 485491139 
+SetBestChain: new best=4c2ef0fee6194af60d0feb4d485d57c28a7ba6a5bcbdd90ab6e226403220db96  height=0  trust=1  date=08/21/18 12:52:37
+Stake checkpoint: fd11f4e7
+ResetSyncCheckpoint: sync-checkpoint reset to 4c2ef0fee6194af60d0feb4d485d57c28a7ba6a5bcbdd90ab6e226403220db96
+ block index               4ms
+Loading wallet...
+nFileVersion = 70200
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool added key 7, size=7
+keypool added key 8, size=8
+keypool added key 9, size=9
+keypool added key 10, size=10
+keypool added key 11, size=11
+keypool added key 12, size=12
+keypool added key 13, size=13
+keypool added key 14, size=14
+keypool added key 15, size=15
+keypool added key 16, size=16
+keypool added key 17, size=17
+keypool added key 18, size=18
+keypool added key 19, size=19
+keypool added key 20, size=20
+keypool added key 21, size=21
+keypool added key 22, size=22
+keypool added key 23, size=23
+keypool added key 24, size=24
+keypool added key 25, size=25
+keypool added key 26, size=26
+keypool added key 27, size=27
+keypool added key 28, size=28
+keypool added key 29, size=29
+keypool added key 30, size=30
+keypool added key 31, size=31
+keypool added key 32, size=32
+keypool added key 33, size=33
+keypool added key 34, size=34
+keypool added key 35, size=35
+keypool added key 36, size=36
+keypool added key 37, size=37
+keypool added key 38, size=38
+keypool added key 39, size=39
+keypool added key 40, size=40
+keypool added key 41, size=41
+keypool added key 42, size=42
+keypool added key 43, size=43
+keypool added key 44, size=44
+keypool added key 45, size=45
+keypool added key 46, size=46
+keypool added key 47, size=47
+keypool added key 48, size=48
+keypool added key 49, size=49
+keypool added key 50, size=50
+keypool added key 51, size=51
+keypool added key 52, size=52
+keypool added key 53, size=53
+keypool added key 54, size=54
+keypool added key 55, size=55
+keypool added key 56, size=56
+keypool added key 57, size=57
+keypool added key 58, size=58
+keypool added key 59, size=59
+keypool added key 60, size=60
+keypool added key 61, size=61
+keypool added key 62, size=62
+keypool added key 63, size=63
+keypool added key 64, size=64
+keypool added key 65, size=65
+keypool added key 66, size=66
+keypool added key 67, size=67
+keypool added key 68, size=68
+keypool added key 69, size=69
+keypool added key 70, size=70
+keypool added key 71, size=71
+keypool added key 72, size=72
+keypool added key 73, size=73
+keypool added key 74, size=74
+keypool added key 75, size=75
+keypool added key 76, size=76
+keypool added key 77, size=77
+keypool added key 78, size=78
+keypool added key 79, size=79
+keypool added key 80, size=80
+keypool added key 81, size=81
+keypool added key 82, size=82
+keypool added key 83, size=83
+keypool added key 84, size=84
+keypool added key 85, size=85
+keypool added key 86, size=86
+keypool added key 87, size=87
+keypool added key 88, size=88
+keypool added key 89, size=89
+keypool added key 90, size=90
+keypool added key 91, size=91
+keypool added key 92, size=92
+keypool added key 93, size=93
+keypool added key 94, size=94
+keypool added key 95, size=95
+keypool added key 96, size=96
+keypool added key 97, size=97
+keypool added key 98, size=98
+keypool added key 99, size=99
+keypool added key 100, size=100
+keypool added key 101, size=101
+ wallet                  115ms
+Loading addresses...
+ERROR: CAddrman::Read() : open failed
+Invalid or missing peers.dat; recreating
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+send version message: version 70000, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:0
+DNS seeding disabled
+ThreadIRCSeed exited
+ThreadSocketHandler started
+ThreadRPCServer started
+ThreadOpenConnections started
+trying connection 198.54.124.49 lastseen=0.0hrs
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadMessageHandler started
+ThreadStakeMinter started
+CPUMiner started for proof-of-stake
+Flushed 0 addresses to peers.dat  1ms
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+ThreadRPCServer method=getinfo
+keypool added key 102, size=101
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=getinfo
+ThreadRPCServer method=getinfo
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+ThreadRPCServer method=getinfo
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+trying connection 198.54.124.49 lastseen=0.0hrs
+connect() failed after select(): Connection refused
+ThreadRPCServer method=stop
+Flush(false)
+blkindex.dat refcount=0
+blkindex.dat checkpoint
+blkindex.dat closed
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+wallet.dat closed
+DBFlush(false) ended               1ms
+StopNode()
+ThreadSocketHandler exited
+ThreadMessageHandler exited
+ThreadStakeMinter exiting, 0 threads remaining
+ThreadOpenConnections exited
+Flushed 0 addresses to peers.dat  1ms
+Flush(true)
+DBFlush(true) ended               0ms
+falcoin exited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+falcoin version v1.6.0.0 (2018-04-07 11:02:14 +0530)
+Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+Startup time: 08/31/18 01:57:26
+Default data directory /root/.falcoin
+Used data directory /root/.falcoin
+dbenv.open LogDir=/root/.falcoin/database ErrorFile=/root/.falcoin/db.log
+Bound to [::]:5020
+Bound to 0.0.0.0:5020
+Loading block index...
+LoadBlockIndex(): hashBestChain=4c2ef0fee6194af60d0f  height=0  trust=1  date=08/21/18 12:52:37
+LoadBlockIndex(): synchronized checkpoint 4c2ef0fee6194af60d0feb4d485d57c28a7ba6a5bcbdd90ab6e226403220db96
+Verifying last 0 blocks at level 1
+ block index               1ms
+Loading wallet...
+nFileVersion = 70200
+ wallet                  164ms
+Loading addresses...
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 101
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+ThreadRPCServer started
+send version message: version 70000, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:0
+AddLocal(199.188.204.101:5020,1)
+IPv4 eth1: 199.188.204.101
+DNS seeding disabled
+ThreadIRCSeed started
+ThreadSocketHandler started
+ThreadOpenConnections started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadMessageHandler started
+ThreadStakeMinter started
+CPUMiner started for proof-of-stake
+Flushed 0 addresses to peers.dat  1ms
+GetMyExternalIP() received [199.188.204.101] 199.188.204.101:0
+GetMyExternalIP() returned 199.188.204.101
+AddLocal(199.188.204.101:5020,5)
+IRC :irc.smutfairy.com NOTICE * :*** Looking up your hostname
+IRC :irc.smutfairy.com NOTICE * :*** Couldn't look up your hostname
+IRC SENDING: NICK uCDrWmE5nxAtyCC
+IRC SENDING: USER uCDrWmE5nxAtyCC 8 * : uCDrWmE5nxAtyCC
+IRC :irc.smutfairy.com 001 uCDrWmE5nxAtyCC :Welcome to the LFNet Internet Relay Chat Network uCDrWmE5nxAtyCC
+IRC :irc.smutfairy.com 002 uCDrWmE5nxAtyCC :Your host is irc.smutfairy.com[::/6667], running version hybrid-8.2.8
+IRC :irc.smutfairy.com 003 uCDrWmE5nxAtyCC :This server was created Sep 11 2015 at 16:23:32
+IRC :irc.smutfairy.com 004 uCDrWmE5nxAtyCC irc.smutfairy.com hybrid-8.2.8 DFGHRSWabcdefgijklnopqrsuwxy bchiklmnoprstveCIMORS bkloveIh
+IRC SENDING: USERHOST uCDrWmE5nxAtyCC
+ThreadRPCServer method=getinfo
+IRC :irc.smutfairy.com 302 uCDrWmE5nxAtyCC :uCDrWmE5nxAtyCC=+uCDrWmE5nx@199.188.204.101 
+GetIPFromIRC() got userhost 199.188.204.101
+GetIPFromIRC() returned 199.188.204.101
+AddLocal(199.188.204.101:5020,4)
+IRC SENDING: NICK uCDrWmE5nxAtyCC
+IRC SENDING: JOIN #falcoin00
+IRC SENDING: WHO #falcoin00
+IRC got join
+Added 199.188.204.101:5020 from 62.210.131.147: 0 tried, 1 new
+IRC got new address: 199.188.204.101:5020
+IRC got who
+IRC got who
+ThreadRPCServer method=getinfo
+ThreadRPCServer method=getinfo
+accepted connection 77.72.134.97:44388
+send version message: version 70000, blocks=0, us=199.188.204.101:5020, them=77.72.134.97:44388, peer=77.72.134.97:44388
+Added time data, samples 2, offset +0 (+0 minutes)
+receive version message: version 70000, blocks=1, us=199.188.204.101:5020, them=0.0.0.0:0, peer=77.72.134.97:44388
+getblocks -1 to 00000000000000000000 limit 500
+received block 00000d58e918ede20505
+SetBestChain: new best=00000d58e918ede205052b2b9a07679d5146ac34de057d17813eeaf0a21ae85e  height=1  trust=2  date=08/22/18 09:03:34
+Stake checkpoint: 2dcbe358
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+Flushed 1 addresses to peers.dat  0ms
+Flushed 1 addresses to peers.dat  0ms
+Flushed 1 addresses to peers.dat  0ms
+ResendWalletTransactions()
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  0ms
+Flushed 1 addresses to peers.dat  0ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  0ms
+Flushed 1 addresses to peers.dat  0ms
+ERROR: CAddrman::Write() : open failed
+Flushed 1 addresses to peers.dat  0ms
+ERROR: CAddrman::Write() : open failed
+Flushed 1 addresses to peers.dat  0ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  0ms
+Flushed 1 addresses to peers.dat  1ms
